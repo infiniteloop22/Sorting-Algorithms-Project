@@ -37,9 +37,9 @@ namespace SortingAlgorithms
                     iterativeAverageTime = iterativeTotalTime / 5;
                     Console.WriteLine("\n" + "Iterative sorting algorithm average run time (ms): {0} \n", iterativeAverageTime);
 
-                    Console.WriteLine("------------------------------------------------------------------------------------------------------------------------");
+                    Console.WriteLine("------------------------------------------------------------------------------------------------------------------------");*/
 
-                    for (int i = 1; i <= 5; i++)
+                    /*for (int i = 1; i <= 5; i++)
                     {
                         list = LoadIntegerTestData(userInput);
                         stopwatch.Reset();
@@ -71,7 +71,14 @@ namespace SortingAlgorithms
                         Console.WriteLine(item.ToString());
                     }*/
 
-                    Console.WriteLine("\n------------------------------------------------------------------------------------------------------------------------");
+                    /*for (int i  = 0; i < bookList.Count; i++)
+                    {
+                        Console.WriteLine(bookList[i].ToString());
+                    }*/
+
+                    //Console.WriteLine("\n------------------------------------------------------------------------------------------------------------------------");
+                    //Console.WriteLine("\n------------------------------------------------------------------------------------------------------------------------");
+                    //Console.WriteLine("\n------------------------------------------------------------------------------------------------------------------------");
 
                     for (int i = 1; i <= 5; i++)
                     {

@@ -46,7 +46,7 @@ namespace SortingAlgorithms
 
             if (!regex.IsMatch(str))
             {
-                book = Parse(str);
+                book = null;
                 return false;
             }
             else
