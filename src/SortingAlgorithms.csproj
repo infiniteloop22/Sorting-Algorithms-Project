@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+	<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <StartupObject>SortingAlgorithms.Program</StartupObject>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Book.cs" />
+    <Compile Include="Sorting_Algorithms/IterativeSort.cs" />
+    <Compile Include="Sorting_Algorithms/RecursiveSort.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Interface/ISort.cs" />
+  </ItemGroup>
+
+</Project>
